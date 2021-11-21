@@ -50,11 +50,11 @@ class MainActivity : ComponentActivity() {
                             contentDescription = "rabbit"
                         )
                         Spacer(modifier = Modifier.height(8.dp))
-//                        Text(
-//                            text = rabbit.name,
-//                            fontWeight = FontWeight.Bold,
-//                            fontSize = 20.sp
-//                        )
+                        Text(
+                            text = rabbit.name,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 20.sp
+                        )
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(text = rabbit.description)
                         Spacer(modifier = Modifier.height(8.dp))
